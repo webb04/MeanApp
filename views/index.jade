@@ -1,0 +1,22 @@
+extends layout
+
+block content
+  .container
+    <br/><br/><br/>
+
+    .starter-template.center
+      img(src="/images/arthurkay.jpg").profile-picture
+      h1
+        | Welcome Back
+        span.red  #{title}!
+      p.lead
+        | Use this Speaker Portal to send us the necessary information
+        br
+        | Please review your checklist in the navigation bar
+  // /.container
+
+  // Bootstrap core JavaScript
+  // ==================================================
+  // Placed at the end of the document so the pages load faster
+  script(src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js')
+  script(src='#{pathToAssets}/dist/js/bootstrap.min.js')

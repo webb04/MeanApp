@@ -1,0 +1,33 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.logo {
+  width: 45%;
+  margin-top: 10px;
+}
+
+* {
+  font-family: 'Roboto' !important;
+}
+
+.red {
+  color: #FB0D0B;
+}
+
+.center {
+  text-align: center;
+}
+
+.profile-picture {
+
+}
+
+.badge {
+  background: #FB0D0B !important;
+}
