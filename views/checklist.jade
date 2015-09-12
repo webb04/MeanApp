@@ -14,9 +14,9 @@ block content
         ul.nav.navbar-nav
           li
             img(src="/images/logo-white@2x.png").logo
-          li.active
-            a(href='/') Home
           li
+            a(href='/') Home
+          li.active
             a(href='/checklist') Checklist
           li
             a(href='/contact') Contact
@@ -24,23 +24,3 @@ block content
             a(href='/logout') Logout
           <li role="presentation"><a href="#">Updates <span class="badge">4</span></a></li>
         // /.nav-collapse
-
-  .container
-    <br/><br/><br/>
-
-    .starter-template.center
-      img(src="/images/arthurkay.jpg").profile-picture
-      h1
-        | Welcome Back
-        span.red  #{title}!
-      p.lead
-        | Use this Speaker Portal to send us the necessary information
-        br
-        | Please review your checklist in the navigation bar
-  // /.container
-
-  // Bootstrap core JavaScript
-  // ==================================================
-  // Placed at the end of the document so the pages load faster
-  script(src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js')
-  script(src='#{pathToAssets}/dist/js/bootstrap.min.js')
